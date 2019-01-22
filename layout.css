@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+}
+
+.header{
+    background: aqua;
+    height: 80px;
+}
+
+.head-link{
+    background: greenyellow;
+    height: 40px;
+}
+
+.left{
+    background: #6f42c1;
+    height: 500px;
+    width: 15%;
+    float: left;
+}
+.content{
+    background: #7abaff;
+    height: 500px;
+    width: 70%;
+    float: left;
+}
+.right{
+    background: pink;
+    height: 500px;
+    width: 15%;
+    float: left;
+}
+.footer{
+    background: lightgoldenrodyellow;
+    height: 80px;
+    clear: both;
+}
+a{
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+}
+
